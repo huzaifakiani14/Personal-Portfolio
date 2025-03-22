@@ -65,9 +65,7 @@ const Contact = () => {
       <SectionTitle>Get In Touch</SectionTitle>
       <ContactText>
         I'm currently looking for new opportunities! Whether you have a question, want to collaborate, 
-        or just want to say hi, I'll try my best to get back to you! Just like how 
-        <span className="highlight"> FC Barcelona</span> connects with their fans, I'm always excited 
-        to connect with fellow developers and potential collaborators.
+        or just want to say hi, I'll try my best to get back to you!
       </ContactText>
 
       <Form
