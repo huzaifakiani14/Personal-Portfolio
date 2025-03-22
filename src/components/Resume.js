@@ -67,15 +67,14 @@ const Resume = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <JobTitle>Software Engineer Intern</JobTitle>
-        <Company>Nucor Business Technology</Company>
-        <Duration>May 2023 - August 2023</Duration>
+        <JobTitle>Software Engineering Fellow</JobTitle>
+        <Company>Headstarter AI</Company>
+        <Duration>July 2024 - September 2024</Duration>
         <Description>
           <List>
-            <li>Developed and maintained full-stack web applications using React, Node.js, and PostgreSQL</li>
-            <li>Collaborated with cross-functional teams to implement new features and improve existing functionality</li>
-            <li>Participated in code reviews and contributed to team discussions on best practices</li>
-            <li>Worked on optimizing database queries and improving application performance</li>
+            <li>Working on AI projects and participating in hackathons</li>
+            <li>Focusing on transforming startup backlogs into functional solutions</li>
+            <li>Collaborating with team members on innovative AI implementations</li>
           </List>
         </Description>
       </ExperienceCard>
@@ -86,15 +85,50 @@ const Resume = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <JobTitle>Teaching Assistant</JobTitle>
-        <Company>University of Massachusetts Amherst</Company>
-        <Duration>September 2022 - Present</Duration>
+        <JobTitle>Blockchain and Web3 Security Research Extern</JobTitle>
+        <Company>Webacy</Company>
+        <Duration>May 2024 - July 2024</Duration>
         <Description>
           <List>
-            <li>Assisted professors in teaching programming concepts to undergraduate students</li>
-            <li>Conducted office hours and review sessions to help students with assignments</li>
-            <li>Graded assignments and provided constructive feedback to improve student learning</li>
-            <li>Mentored students in developing their programming skills and problem-solving abilities</li>
+            <li>Conducted comprehensive blockchain technology analysis</li>
+            <li>Assessed Web3 security competitors to enhance company competitiveness</li>
+            <li>Researched and documented blockchain security best practices</li>
+          </List>
+        </Description>
+      </ExperienceCard>
+
+      <ExperienceCard
+        as={motion.div}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+      >
+        <JobTitle>Artificial Intelligence Engineer</JobTitle>
+        <Company>Practera</Company>
+        <Duration>April 2023 - June 2023</Duration>
+        <Description>
+          <List>
+            <li>Conducted comprehensive testing on automated feedback features</li>
+            <li>Evaluated reliability through real-world scenario testing</li>
+            <li>Contributed to improving AI-driven feedback systems</li>
+          </List>
+        </Description>
+      </ExperienceCard>
+
+      <ExperienceCard
+        as={motion.div}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.4 }}
+      >
+        <JobTitle>Information Technology Intern</JobTitle>
+        <Company>Agawam High School</Company>
+        <Duration>September 2022 - May 2024</Duration>
+        <Description>
+          <List>
+            <li>Collaborated with the IT department providing technical support</li>
+            <li>Conducted repairs on malfunctioning computers</li>
+            <li>Assisted in maintaining and upgrading school IT infrastructure</li>
           </List>
         </Description>
       </ExperienceCard>
