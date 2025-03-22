@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const HomeContainer = styled.div`
   min-height: 100vh;
@@ -41,7 +42,7 @@ const Description = styled(motion.p)`
   margin-bottom: 2rem;
 `;
 
-const Button = styled(motion.a)`
+const Button = styled(Link)`
   display: inline-block;
   padding: 1rem 2rem;
   background-color: transparent;
@@ -92,7 +93,7 @@ const Home = () => {
           Currently, I'm focused on building accessible, human-centered products.
         </Description>
         <Button
-          href="#projects"
+          to="/projects"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
