@@ -1,17 +1,10 @@
 # FC Barcelona-Themed Personal Portfolio 🔵🔴
 
-A modern, responsive personal portfolio website with a unique FC Barcelona theme, built using React and styled-components. The design incorporates Barcelona's iconic colors and features dynamic soccer-themed animations.
+A modern, responsive personal portfolio website with a unique FC Barcelona theme, built using React and styled-components.
 
 ![Barcelona Theme](https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png)
 
 ## 🌟 Features
-
-- **Barcelona-Inspired Design**
-  - Club colors (Navy, Team Blue, Red, and Gold)
-  - Animated soccer balls in the background
-  - Barcelona crest watermark
-  - Glass-morphism effects
-
 - **Modern UI Components**
   - Responsive navigation
   - Smooth animations using Framer Motion
@@ -66,16 +59,9 @@ The portfolio is fully responsive and optimized for:
 - Tablets
 - Mobile devices
 
-## 🎨 Color Palette
-
-- Navy Blue: `#181733`
-- Team Blue: `#004D98`
-- Team Red: `#A50044`
-- Gold: `#FFB200`
-
 ## 🌐 Live Demo
 
-Visit the live portfolio at: [Portfolio Website URL]
+Visit the live portfolio at: [https://ziggydiggy.vercel.app/]
 
 ## 📂 Project Structure
 
