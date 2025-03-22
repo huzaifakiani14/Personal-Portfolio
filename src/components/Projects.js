@@ -79,8 +79,8 @@ const projects = [
     title: "Personal Portfolio",
     description: "A modern, responsive portfolio website showcasing my projects and skills. Features smooth animations, clean design, and optimal performance across all devices.",
     tags: ["React", "JavaScript", "Styled Components", "Framer Motion"],
-    github: "https://github.com/huzaifakiani14/Website",
-    live: "https://huzaifakiani14.github.io/Website/"
+    github: "https://github.com/huzaifakiani14/Personal-Portfolio",
+    live: "https://ziggydiggy.vercel.app/"
   }
 ];
 
