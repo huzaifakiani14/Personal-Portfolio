@@ -55,6 +55,13 @@ const ButtonContainer = styled.div`
 
 const projects = [
   {
+    title: "Movie Discovery Hub",
+    description: "Built a full-stack web application integrating the TMDB API to deliver advanced search, genre filtering, and detailed movie info (ratings, runtime, overviews) with smooth loading states and error handling. Implemented a favorites system with persistent storage and real-time statistics tracking, enhancing user engagement; optimized for mobile-first responsiveness, glassmorphism UI, and modern animations.",
+    tags: ["React", "JavaScript", "TMDB API", "CSS3", "Local Storage"],
+    github: "https://github.com/huzaifakiani14/movie_generator",
+    live: "https://huzaifakiani14.github.io/movie_generator/"
+  },
+  {
     title: "LeetBank",
     description: "A comprehensive platform for tracking and managing LeetCode practice problems. Features include progress tracking, problem categorization, personal notes, and a clean interface for organizing your coding journey.",
     tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Firebase"],
