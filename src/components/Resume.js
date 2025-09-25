@@ -91,7 +91,7 @@ const Resume = () => {
         <Description>
           <List>
             <li>Researched emerging blockchain technologies, assessing technical offerings and market positioning.</li>
-            <li>Analyzed Web3 security competitors, mapping product features, strategy, and consumer insights to identify market disruptors./li>
+            <li>Analyzed Web3 security competitors, mapping product features, strategy, and consumer insights to identify market disruptors.</li>
             <li>Synthesized research findings to enhance company competitiveness in the digital landscape.</li>
           </List>
         </Description>
