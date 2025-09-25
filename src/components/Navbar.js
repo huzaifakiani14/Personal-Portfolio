@@ -158,7 +158,7 @@ const Navbar = () => {
           <NavLink to="/resume" active={location.pathname === '/resume'}>Experience</NavLink>
           <NavLink to="/contact" active={location.pathname === '/contact'}>Contact</NavLink>
           <ResumeButton 
-            href="https://docs.google.com/document/d/1GO4qam4x5KikUEb2Cz6WbRcCW5myFu-NNzAOmvFCoUo/edit?tab=t.0"
+            href="https://docs.google.com/document/d/1NzSN-H4Q4Q5gshmLjqrUFzesJDgCxPQ_Z6hFRU_YoqI/export?format=pdf"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
@@ -196,7 +196,7 @@ const Navbar = () => {
               Contact
             </NavLink>
             <ResumeButton 
-              href="https://docs.google.com/document/d/1GO4qam4x5KikUEb2Cz6WbRcCW5myFu-NNzAOmvFCoUo/edit?tab=t.0"
+              href="https://docs.google.com/document/d/1NzSN-H4Q4Q5gshmLjqrUFzesJDgCxPQ_Z6hFRU_YoqI/export?format=pdf"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

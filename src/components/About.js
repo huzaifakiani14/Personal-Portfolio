@@ -70,7 +70,9 @@ const technologies = [
   { name: 'HTML5', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg' },
   { name: 'CSS3', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg' },
   { name: 'Git', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg' },
-  { name: 'PostgreSQL', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg' }
+  { name: 'PostgreSQL', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg' },
+  {name: 'Spring Boot', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg'},
+  {name: 'AWS', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg'}
 ];
 
 const About = () => {
@@ -79,10 +81,10 @@ const About = () => {
       <SectionTitle>About Me</SectionTitle>
       <AboutText>
         <p>
-          Hello! I'm <span className="highlight">Huzaifa Kiani</span>, a passionate software engineer with a deep love for both coding and soccer, especially FC Barcelona. Just like Barça's philosophy of beautiful, effective football, I strive to create elegant, efficient solutions in my development work.
+          Hello! I'm <span className="highlight">Huzaifa Kiani</span>, a passionate software engineer with a deep love for both coding and soccer, especially FC Barcelona.
         </p>
         <p>
-          My journey in tech has been as dynamic as a soccer match, with each project representing a new challenge to tackle. I specialize in full-stack development, with particular expertise in:
+          My journey in tech has been dynamic, with each project representing a new challenge to tackle. I specialize in full-stack development, with particular expertise in:
         </p>
       </AboutText>
 
@@ -120,7 +122,7 @@ const About = () => {
       >
         <AboutText>
           <p>
-            When I'm not coding, you'll find me watching FC Barcelona matches, analyzing soccer tactics, or applying the same strategic thinking I use in development to understand the beautiful game. I believe in the power of teamwork, continuous learning, and maintaining high standards - values I've learned from both software development and soccer.
+            When I'm not coding, you'll find me watching soccer matches, learning about new fragrances, or learning about new technologies.
           </p>
         </AboutText>
       </Card>

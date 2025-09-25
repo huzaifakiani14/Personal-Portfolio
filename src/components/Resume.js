@@ -72,9 +72,9 @@ const Resume = () => {
         <Duration>July 2024 - September 2024</Duration>
         <Description>
           <List>
-            <li>Working on AI projects and participating in hackathons</li>
-            <li>Focusing on transforming startup backlogs into functional solutions</li>
-            <li>Collaborating with team members on innovative AI implementations</li>
+            <li>Built and deployed 5 AI web apps in 5 weeks with React, Next.js, Firebase, and Vercel, using agile sprints and CI/CD pipelines.</li>
+            <li>Launched a SaaS flashcard generator with 3 fellows, utilizing Llama 3.1 LLM, Groq API, and Stripe paywall.</li>
+            <li>Developed a RateMyProfessor scraper + Pinecone RAG pipeline with LangChain & GPT-4o, improving query speed and relevance.</li>
           </List>
         </Description>
       </ExperienceCard>
@@ -90,9 +90,9 @@ const Resume = () => {
         <Duration>May 2024 - July 2024</Duration>
         <Description>
           <List>
-            <li>Conducted comprehensive blockchain technology analysis</li>
-            <li>Assessed Web3 security competitors to enhance company competitiveness</li>
-            <li>Researched and documented blockchain security best practices</li>
+            <li>Researched emerging blockchain technologies, assessing technical offerings and market positioning.</li>
+            <li>Analyzed Web3 security competitors, mapping product features, strategy, and consumer insights to identify market disruptors./li>
+            <li>Synthesized research findings to enhance company competitiveness in the digital landscape.</li>
           </List>
         </Description>
       </ExperienceCard>
@@ -108,9 +108,8 @@ const Resume = () => {
         <Duration>April 2023 - June 2023</Duration>
         <Description>
           <List>
-            <li>Conducted comprehensive testing on automated feedback features</li>
-            <li>Evaluated reliability through real-world scenario testing</li>
-            <li>Contributed to improving AI-driven feedback systems</li>
+            <li>Performed comprehensive testing on Practera's recently developed automated feedback feature.</li>
+            <li>Executed tests; tested functionality, effectiveness, and reliability in real-world scenarios; presented solution to CEO.</li>
           </List>
         </Description>
       </ExperienceCard>

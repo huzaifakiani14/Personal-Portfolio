@@ -89,8 +89,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          I'm a software engineer specializing in building exceptional digital experiences.
-          Currently, I'm focused on building accessible, human-centered products.
+          I'm a software engineer skilled in full-stack development.
         </Description>
         <Button
           to="/projects"
