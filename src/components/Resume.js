@@ -134,7 +134,7 @@ const Resume = () => {
 
       <ButtonWrapper>
         <Button
-          href="https://docs.google.com/document/d/1NzSN-H4Q4Q5gshmLjqrUFzesJDgCxPQ_Z6hFRU_YoqI/export?format=pdf"
+          href="https://docs.google.com/document/d/1zG1ovULf2VTSVk9o5U_mrSgnmepCtBWg5nFMMniaF_Y/edit?tab=t.0 format=pdf"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.05 }}
