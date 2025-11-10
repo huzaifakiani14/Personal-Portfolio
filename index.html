@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Huzaifa's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">    
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="Icon" type="image/x-icon" href="/images/letter-k.png">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+  <!-- FC Barcelona Crest Watermark -->
+  <div class="barca-watermark"></div>
+  <!-- Animated Particle Background -->
+  <div class="particle-background" id="particle-background"></div>
+  <div class="white-fade" id="white-fade"></div>
+  <div id="loader">
+    <div class="loader-bar-container">
+      <div style="font-size: 70px; position: absolute; top: -28px; left: -40px; opacity: 0; z-index: 2; transition: left 0.1s linear;" id="soccer-ball-loader-gif">⚽</div>
+      <div class="loader-bar-bg">
+        <div class="loader-bar-fill" id="loader-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+  <header class="header">
+    <a href="#" class="logo"><span>Huzaifa Kiani</span></a>
+    <ul id="nav-links" class="nav-links">
+      <li><a href="#about-section">About</a></li>
+      <li><a href="#skills-section">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <img src="images/menu.png" id="menu-icon" alt="Menu Icon">
+      <button class="visit-btn"><a href="https://github.com/huzaifakiani14" target="_blank" rel="noopener noreferrer">Visit Github!</button>
+  </header>
+  
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li>
+        <a href="#about-section">
+          <span class="icon-box"><i class="fa-regular fa-address-card"></i></span>
+          <span class="menu-label">About</span>
+        </a>
+      </li>
+      <li>
+        <a href="#skills-section">
+          <span class="icon-box"><i class="fa-solid fa-code"></i></span>
+          <span class="menu-label">Skills</span>
+        </a>
+      </li>
+      <li>
+        <a href="#experience">
+          <span class="icon-box"><i class="fa-solid fa-briefcase"></i></span>
+          <span class="menu-label">Experience</span>
+        </a>
+      </li>
+      <li>
+        <a href="#projects">
+          <span class="icon-box"><i class="fa-solid fa-diagram-project"></i></span>
+          <span class="menu-label">Projects</span>
+        </a>
+      </li>
+      <li>
+        <a href="#contact">
+          <span class="icon-box"><i class="fa-solid fa-envelope"></i></span>
+          <span class="menu-label">Contact</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+  <section class="hero-section">
+    <div class="dot red"></div>
+    <div class="dot amber"></div>
+    <div class="dot green"></div>
+    <br>
+    <img src="images/huzaifa.png" alt="pfp" id="pfp">
+    <div class="info-box">
+      <div class="text">
+        <h3 style="color: var(--barca-navy);">Hello I'm</h3>
+        <h1 style="color: var(--barca-navy); font-weight: 800;">Huzaifa</h1>
+        <div class="typing-container">
+          <span class="static-text"></span>
+          <span id="typing-text"></span>
+        </div>
+        <p>I'm a software engineer skilled in full-stack development. I build things for the web with a passion for creating innovative solutions.</p>
+      </div>
+    </div>
+    
+
+    <div class="divider">
+      <button class="visit-btn" id="resume-btn"><a href="https://docs.google.com/document/d/1zG1ovULf2VTSVk9o5U_mrSgnmepCtBWg5nFMMniaF_Y/export?format=pdf" target="_blank" rel="noopener noreferrer">Download Resume</a></button>
+      <button class="visit-btn">
+        <a href="mailto:huzaifakiani014@gmail.com">Contact Me</a></button>
+    </div>
+    
+    <div class="socials">
+      <a href="https://github.com/huzaifakiani14" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/huzaifakiani/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </div>
+    
+  </section>
+
+  <section class="about-section" id="about-section">
+    <div class="section-title">
+      <h3>Get to Know All</h3>
+      <h1>About Me</h1>
+    </div>
+    <div class="container">
+    <div class="about-card">
+      <div class="about-info">
+        <p>Hello! I'm <strong>Huzaifa Kiani</strong>, a passionate software engineer with a deep love for both coding and soccer, especially FC Barcelona.
+        </p>
+        <br>
+        <p>
+          My journey in tech has been dynamic, with each project representing a new challenge to tackle. I specialize in full-stack development, with particular expertise in React, Node.js, JavaScript, Python, and modern web technologies. When I'm not coding, you'll find me watching soccer matches, learning about new fragrances, or learning about new technologies. </p>
+      </div>
+    </div>
+  </div>
+
+  <section class="skills-section" id="skills-section">
+      <h3>Know My</h3>
+      <h1>Skills</h1>
+      <p>Explore the programming languages and tools I've mastered, showcasing the foundation of my technical expertise. Discover the technologies that power my projects!</p>
+    </div>
+    <div class="cells">
+      <div class="cell">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react logo" />
+        <span>React</span>
+      </div>
+
+      <div class="cell">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript logo" />
+        <span>JavaScript</span>
+      </div>
+
+      <div class="cell">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" />
+        <span>Node.js</span>
+      </div>
+
+      <div class="cell">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
+        <span>Python</span>
+      </div>
+
+      <div class="cell">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
+        <span>HTML5</span>
+      </div>
+
+      <div class="cell">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
+        <span>CSS3</span>
+      </div>
+
+      <div class="cell">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" />
+        <span>Git</span>
+      </div>
+
+      <div class="cell">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" />
+        <span>PostgreSQL</span>
+      </div>
+
+      <div class="cell">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" />
+        <span>Spring Boot</span>
+      </div>
+
+      <div class="cell">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
+        <span>AWS</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience-section" id="experience">
+    <h3>Know my</h3>
+    <h1>Experience</h1>
+    <div class="timeline">
+      <div class="timeline-bar"></div>
+      
+      <!-- Experience Section Header -->
+      <div class="timeline-section-header">
+        <h2>Work Experience</h2>
+      </div>
+
+      <!-- Fidelity Investments Experience -->
+      <div class="timeline-item left">
+        <div class="timeline-node"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="experience-card">
+          <div class="exp-header">
+            <div class="exp-logo" style="background:#368727;"><img src="images/fidelity-icon.png" alt="Fidelity logo"></div>
+            <div class="exp-title-group">
+              <span class="exp-title">Software Engineering Intern</span>
+              <span class="exp-company">Fidelity Investments</span>
+            </div>
+          </div>
+          <div class="exp-badges">
+            <span class="exp-badge">June 2026 - Present</span>
+            <span class="exp-badge location">Merrimack, New Hampshire</span>
+          </div>
+          <div class="exp-description">
+            <div class="exp-subsection">
+              <div class="exp-subsection-desc">Incoming Summer 2026 intern.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Headstarter AI Experience -->
+      <div class="timeline-item right">
+        <div class="timeline-node"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="experience-card">
+          <div class="exp-header">
+            <div class="exp-logo" style="background:#fff;"><img src="images/headstarter.avif" alt="Headstarter AI logo"></div>
+            <div class="exp-title-group">
+              <span class="exp-title">Software Engineering Fellow</span>
+              <span class="exp-company">Headstarter AI</span>
+            </div>
+          </div>
+          <div class="exp-badges">
+            <span class="exp-badge">July 2024 - September 2024</span>
+            <span class="exp-badge location">Remote</span>
+          </div>
+          <div class="exp-description">
+            <div class="exp-subsection">
+              <div class="exp-subsection-desc">• Built and deployed 5 AI web apps in 5 weeks with React, Next.js, Firebase, and Vercel, using agile sprints and CI/CD pipelines.<br>
+              • Launched a SaaS flashcard generator with 3 fellows, utilizing Llama 3.1 LLM, Groq API, and Stripe paywall.<br>
+              • Developed a RateMyProfessor scraper + Pinecone RAG pipeline with LangChain & GPT-4o, improving query speed and relevance.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Webacy Experience -->
+      <div class="timeline-item left">
+        <div class="timeline-node"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="experience-card">
+          <div class="exp-header">
+            <div class="exp-logo" style="background:#fff;"><img src="images/externhq_logo.jpeg" alt="Webacy logo"></div>
+            <div class="exp-title-group">
+              <span class="exp-title">Blockchain and Web3 Security Research Extern</span>
+              <span class="exp-company">Webacy</span>
+            </div>
+          </div>
+          <div class="exp-badges">
+            <span class="exp-badge">May 2024 - July 2024</span>
+            <span class="exp-badge location">Remote</span>
+          </div>
+          <div class="exp-description">
+            <div class="exp-subsection">
+              <div class="exp-subsection-desc">• Researched emerging blockchain technologies, assessing technical offerings and market positioning.<br>
+              • Analyzed Web3 security competitors, mapping product features, strategy, and consumer insights to identify market disruptors.<br>
+              • Synthesized research findings to enhance company competitiveness in the digital landscape.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Practera Experience -->
+      <div class="timeline-item right">
+        <div class="timeline-node"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="experience-card">
+          <div class="exp-header">
+            <div class="exp-logo" style="background:#fff;"><img src="images/practera.webp" alt="Practera logo"></div>
+            <div class="exp-title-group">
+              <span class="exp-title">Artificial Intelligence Engineer</span>
+              <span class="exp-company">Practera</span>
+            </div>
+          </div>
+          <div class="exp-badges">
+            <span class="exp-badge">April 2023 - June 2023</span>
+            <span class="exp-badge location">Remote</span>
+          </div>
+          <div class="exp-description">
+            <div class="exp-subsection">
+              <div class="exp-subsection-desc">• Performed comprehensive testing on Practera's recently developed automated feedback feature.<br>
+              • Executed tests; tested functionality, effectiveness, and reliability in real-world scenarios; presented solution to CEO.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Agawam High School Experience -->
+      <div class="timeline-item left">
+        <div class="timeline-node"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="experience-card">
+          <div class="exp-header">
+            <div class="exp-logo" style="background:#fff;"><img src="images/agawam_logo.png" alt="Agawam High School logo"></div>
+            <div class="exp-title-group">
+              <span class="exp-title">Information Technology Intern</span>
+              <span class="exp-company">Agawam High School</span>
+            </div>
+          </div>
+          <div class="exp-badges">
+            <span class="exp-badge">September 2022 - May 2024</span>
+            <span class="exp-badge location">Agawam, MA</span>
+          </div>
+          <div class="exp-description">
+            <div class="exp-subsection">
+              <div class="exp-subsection-desc">• Collaborated with the IT department providing technical support<br>
+              • Conducted repairs on malfunctioning computers<br>
+              • Assisted in maintaining and upgrading school IT infrastructure</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  
+
+
+  <section class="projects" id="projects">
+    <h3>Check Out My</h3>
+    <h1>Projects</h1>
+    
+    <!-- Filter Buttons -->
+    <div class="filter-container">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Development</button>
+      <button class="filter-btn" data-filter="ai">AI/ML</button>
+    </div>
+
+    <div class="project-grid">
+      <!-- EvenSteven Project -->
+      <div class="project-card" data-category="web">
+        <img src="images/EvenSteven.png" alt="EvenSteven">
+        <h3 class="section-title">EvenSteven</h3>
+        <p>A bill-splitting app for groups to track expenses, manage balances, and settle up fairly. Features Google authentication via Firebase, group management with shareable links, real-time balance calculations, payment recording, and optimized settlement suggestions to minimize transactions. Built with React 19, TypeScript, and Firebase for a modern, mobile-responsive experience.</p>
+        <div class="tech-stack">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">TypeScript</span>
+          <span class="tech-tag">Firebase</span>
+          <span class="tech-tag">Firestore</span>
+          <span class="tech-tag">Vite</span>
+          <span class="tech-tag">Tailwind CSS</span>
+        </div>
+        <div class="btn-group">
+          <div class="btn" id="live-demo">
+            <a href="https://even-steven-fawn.vercel.app" target="_blank">Live Demo</a>
+          </div>
+          <div class="btn" id="git-btn">
+            <a href="https://github.com/huzaifakiani14/EvenSteven" target="_blank">Github</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reddit Client Project -->
+      <div class="project-card" data-category="web">
+        <img src="images/Reddit Client.png" alt="Reddit Client">
+        <h3 class="section-title">Reddit Client</h3>
+        <p>A responsive Reddit client built with React 19 and TypeScript, featuring Redux Toolkit for state management and React Router for navigation. Browse popular posts, search across Reddit, filter by subreddit, and view detailed post pages with Markdown-rendered comments. Includes comprehensive testing with Vitest and Playwright, and a dark-first UI optimized for readability.</p>
+        <div class="tech-stack">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">TypeScript</span>
+          <span class="tech-tag">Redux Toolkit</span>
+          <span class="tech-tag">Vite</span>
+          <span class="tech-tag">Tailwind CSS</span>
+          <span class="tech-tag">React Router</span>
+        </div>
+        <div class="btn-group">
+          <div class="btn" id="live-demo">
+            <a href="https://reddit-client-taupe.vercel.app" target="_blank">Live Demo</a>
+          </div>
+          <div class="btn" id="git-btn">
+            <a href="https://github.com/huzaifakiani14/reddit-client" target="_blank">Github</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Movie Discovery Hub Project -->
+      <div class="project-card" data-category="web">
+        <img src="images/MovieDiscovery.png" alt="Movie Discovery Hub">
+        <h3 class="section-title">Movie Discovery Hub</h3>
+        <p>Built a full-stack web application integrating the TMDB API to deliver advanced search, genre filtering, and detailed movie info (ratings, runtime, overviews) with smooth loading states and error handling. Implemented a favorites system with persistent storage and real-time statistics tracking, enhancing user engagement; optimized for mobile-first responsiveness, glassmorphism UI, and modern animations.</p>
+        <div class="tech-stack">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">TMDB API</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">Local Storage</span>
+        </div>
+        <div class="btn-group">
+          <div class="btn" id="live-demo">
+            <a href="https://huzaifakiani14.github.io/movie_generator/" target="_blank">Live Demo</a>
+          </div>
+          <div class="btn" id="git-btn">
+            <a href="https://github.com/huzaifakiani14/movie_generator" target="_blank">Github</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- LeetBank Project -->
+      <div class="project-card" data-category="web">
+        <img src="images/LeetBank.png" alt="LeetBank">
+        <h3 class="section-title">LeetBank</h3>
+        <p>A comprehensive platform for tracking and managing LeetCode practice problems. Features include progress tracking, problem categorization, personal notes, and a clean interface for organizing your coding journey.</p>
+        <div class="tech-stack">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Next.js</span>
+          <span class="tech-tag">TypeScript</span>
+          <span class="tech-tag">Tailwind CSS</span>
+          <span class="tech-tag">Firebase</span>
+        </div>
+        <div class="btn-group">
+          <div class="btn" id="live-demo">
+            <a href="https://leetbankclient.vercel.app/" target="_blank">Live Demo</a>
+          </div>
+          <div class="btn" id="git-btn">
+            <a href="https://github.com/rahmanMian/LeetBank" target="_blank">Github</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lock-in-o-clock Project -->
+      <div class="project-card" data-category="web">
+        <img src="images/Lockin O'Clock.png" alt="Lock-in-o-clock">
+        <h3 class="section-title">Lock-in-o-clock</h3>
+        <p>A modern Pomodoro timer application with features like customizable work sessions, break intervals, and progress tracking. Built with clean UI and smooth animations for an enhanced user experience.</p>
+        <div class="tech-stack">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Next.js</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">Local Storage</span>
+        </div>
+        <div class="btn-group">
+          <div class="btn" id="live-demo">
+            <a href="https://lockin-o-clock.vercel.app/" target="_blank">Live Demo</a>
+          </div>
+          <div class="btn" id="git-btn">
+            <a href="https://github.com/huzaifakiani14/Lockin-O-Clock" target="_blank">Github</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ski Resort App Project -->
+      <div class="project-card" data-category="web ai">
+        <img src="images/SkiResort.jpg" alt="Ski Resort App">
+        <h3 class="section-title">Ski Resort App</h3>
+        <p>An interactive ski resort finder application featuring real-time weather updates, trail conditions, and resort information. Integrates with Google Places API for accurate location data and resort details.</p>
+        <div class="tech-stack">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Flask</span>
+          <span class="tech-tag">Google Places API</span>
+          <span class="tech-tag">spaCy</span>
+        </div>
+        <div class="btn-group">
+          <div class="btn" id="git-btn">
+            <a href="https://github.com/huzaifakiani14/ski_resort_app" target="_blank">Github</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Personal Portfolio Project -->
+      <div class="project-card" data-category="web">
+        <img src="images/EvenSteven.png" alt="Personal Portfolio">
+        <h3 class="section-title">Personal Portfolio</h3>
+        <p>A modern, responsive portfolio website showcasing my projects and skills. Features smooth animations, clean design, and optimal performance across all devices.</p>
+        <div class="tech-stack">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">Styled Components</span>
+          <span class="tech-tag">Framer Motion</span>
+        </div>
+        <div class="btn-group">
+          <div class="btn" id="live-demo">
+            <a href="https://ziggydiggy.vercel.app/" target="_blank">Live Demo</a>
+          </div>
+          <div class="btn" id="git-btn">
+            <a href="https://github.com/huzaifakiani14/Personal-Portfolio" target="_blank">Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="contact" id="contact">
+    <h1>Contact Me</h1>
+    <div class="parent-container">
+      <div class="email-btn">
+        <i class="fa-solid fa-envelope fa-2xl"></i>
+        <btn id="email" ><a href="mailto:huzaifakiani014@gmail.com">huzaifakiani014@gmail.com</a></btn>
+      </div>
+    </div>
+    <div class="socials">
+      <a href="https://github.com/huzaifakiani14" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/huzaifakiani/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </div>
+    
+  </section>
+  <footer class="footer">
+    © 2025 Huzaifa Kiani. All rights reserved.
+  </footer>
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+  <script src="index.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const typed = new Typed('#typing-text', {
+        strings: [
+          'Software Engineer',
+          'Full-Stack Developer',
+          'Tech Enthusiast',
+          'Soccer Fan'
+        ],
+        typeSpeed: 50,
+        backSpeed: 30,
+        backDelay: 2000,
+        startDelay: 1000,
+        loop: true,
+        showCursor: false
+      });
+    });
+  </script>
+</body>
+</html>
