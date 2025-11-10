@@ -453,8 +453,8 @@ header:hover {
 }
 
 .section-title h1 {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 800;
 }
 
 .about-card {
@@ -537,12 +537,18 @@ header:hover {
 }
 
 /* Section 2 Skills */
+#skills-section {
+  position: relative;
+  margin-top: 150px;
+  padding: 2rem 0;
+}
+
 .skills-section {
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(15px);
   padding: 50px 50px;
   margin-bottom: 100px;
-  margin-top: 150px;
+  margin-top: 30px;
   margin-left: 10%;
   margin-right: 10%;
   border-radius: 10px;
@@ -573,10 +579,9 @@ header:hover {
 }
 .skills-section h1 {
   text-align: center;
-  font-size: 1.5rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   padding-bottom: 12px;
-  font-weight: 600;
+  font-weight: 800;
 }
 .skills-section p {
   text-align: center;
@@ -1004,8 +1009,8 @@ header:hover {
   text-align: center;
 }
 .projects h1{
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 800;
   margin-bottom: 5%;
   text-align: center;
 
@@ -1064,7 +1069,8 @@ header:hover {
 
 .contact h1{
   margin-bottom: 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 800;
   padding-bottom: 0;
 }
 
